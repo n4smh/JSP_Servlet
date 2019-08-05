@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ServletDemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>SampleServlet2</servlet-name>
+    <servlet-class>org.servlet.sample1.SampleServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SampleServlet3</servlet-name>
+    <servlet-class>org.servlet.sample1.SampleServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SampleServlet4</servlet-name>
+    <servlet-class>org.servlet.sample1.SampleServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SampleServlet5_1</servlet-name>
+    <servlet-class>org.servlet.sample1.SampleServlet5_1</servlet-class>
+    <init-param>
+      <param-name>defaultUserName</param-name>
+      <param-value>N4SMH (default)</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>SampleJSP9</servlet-name>
+    <jsp-file>/SampleJSP9.jsp</jsp-file>
+    <init-param>
+      <param-name>defaultUserName</param-name>
+      <param-value>N4SMH (default)</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SampleServlet2</servlet-name>
+    <url-pattern>/SampleServlet2Path</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SampleServlet3</servlet-name>
+    <url-pattern>/SampleServlet3Path</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SampleServlet4</servlet-name>
+    <url-pattern>/SampleServlet4Path</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SampleServlet5_1</servlet-name>
+    <url-pattern>/SampleServlet5_1Path</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SampleJSP9</servlet-name>
+    <url-pattern>/SampleJSP9.jsp</url-pattern>
+  </servlet-mapping>
+</web-app>

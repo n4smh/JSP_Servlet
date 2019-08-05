@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<form action="SampleServlet3Path" method="get">
+		<input type="text" name="userName" placeholder="User name" />
+		<input type="checkbox" name="isMale" value="true">Male</input>
+		<select name="isEmployed">
+			<option value="true">Employed</option>
+			<option value="false">Unemployed</option>
+		</select>
+		<select name="intrests" multiple="multiple">
+			<option value="Java">Java</option>
+			<option value="C#">C#</option>
+			<option value="Python">Python</option>
+			<option value="NodeJS">NodeJS</option>
+			<option value="AngularJS">AngularJS</option>
+			<option value="Ruby">Ruby</option>
+		</select>
+		<button type="submit">Submit</button>
+		<label>GET</label>
+	</form>
+
+	<form action="SampleServlet3Path" method="post">
+		<input type="text" name="userName" id="userName" placeholder="User name">
+		<input type="checkbox" name="isMale" id="isMale" value="true">Male</input>
+		<select name="isEmployed">
+			<option value="true">Employed</option>
+			<option value="false">Unemployed</option>
+		</select>
+		<select name="intrests" multiple="multiple">
+			<option value="Java">Java</option>
+			<option value="C#">C#</option>
+			<option value="Python">Python</option>
+			<option value="NodeJS">NodeJS</option>
+			<option value="AngularJS">AngularJS</option>
+			<option value="Ruby">Ruby</option>
+		</select>
+		<button type="submit">Submit</button>
+		<label>POST</label>
+	</form>
+</body>
+
+</html>
