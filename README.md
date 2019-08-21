@@ -1,4 +1,4 @@
-# JavaBrains_JSP_Servlet
+# JSP_Servlet
 Repo contains JSP and servlet basics code created by refering to JavaBrains. <br/>
 
 Link to tutorials: <br/>
